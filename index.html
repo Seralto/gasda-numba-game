@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gasda Numba</title>
+  </head>
+  <body>
+    <h1># Gasda Numba #</h1>
+    <h3>Guess the 3 digit number!</h3>
+    <p>
+      V - Right number and position<br>
+      ? - Has the number but it is in wrong position<br>
+      X - Wrong number
+    </p>
+
+    <input type="text" name="numberInput" value="" id="numberInput" autofocus>
+    <input type="button" onclick="Game.run()" value="Send">
+
+    <pre id="results"></pre>
+
+    <script src="./src/game.js" charset="utf-8"></script>
+  </body>
+</html>
